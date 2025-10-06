@@ -1,0 +1,53 @@
+body {
+ font-family: "Sono", monospace;
+ font-optical-sizing: auto;
+ font-weight: 300;
+ font-style: normal;
+ font-variation-settings: normal;
+ background: #D6D2C2;
+ color: #374143;
+ padding: 1rem;
+}
+
+header {
+    display: flex;
+    background: #AEC2AE;
+    padding: 1rem;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: left;
+gap: 1rem;
+padding: 1rem;
+}
+
+.main .text {
+    flex: 1;
+}
+
+.image {
+flex: 1 1 60%;
+border-style: solid;
+border-width: 4px;
+border-color: #AEC2AE;
+}
+
+img {
+display: flex;
+width: 100%;
+height: 100%;
+
+}
+
+.about {
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    background: #AEC2AE;
+    padding: 1rem;
+}
